@@ -23,4 +23,21 @@ Text-align:center
 <a href="index.html">
   <p> Click here to go back!
   </a>
-<img id="
+<img id="football.jpeg" src"football.jpeg">
+  <br>
+  <button onclick="showpic()">
+    show
+  </button>
+    <button onclick="hidepic()">
+      hide
+  </button>
+  <script>
+    function hidepic() {
+      var pic = document.getElementById("football.jpeg");
+      pic.style.display = "none";
+    }
+    function showpic() {
+      var pic = document.getElementById("football.jpeg");
+      pic.style.display = "block";
+    }
+  </script>
